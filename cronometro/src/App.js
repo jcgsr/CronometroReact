@@ -56,6 +56,10 @@ class App extends Component {
                <a className="botao" onClick={this.comecar}>{this.state.botao}</a>
                <a className="botao" onClick={this.zerar}>ZERAR</a>
             </div>
+            <div id="footer">
+               &copy;2020 - Cronômetro ReactJS criado e desenvolvido por <a href="https://jcgsr.github.io/">Jovane Rocha</a> <br/>
+               com base no no <a href="https://www.udemy.com/course/curso-reactjs/">  Curso de ReactJS do Zero ao Avançado na Prática</a>
+            </div>
          </div>
       );
    }
