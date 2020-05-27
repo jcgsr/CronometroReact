@@ -11,6 +11,8 @@ body{
 
 a{
    text-decoration: none;
+   color: white;
+   font-weight: bold;
 }
 a:hover{
    text-decoration: underline;
@@ -68,8 +70,7 @@ a:hover{
 #footer {
    width: 100%;
    text-align: center;
-   background: aliceblue;
-   color: red;
+   color: white;
    margin: 0 auto;
    font-size: smaller;
    position: absolute;
@@ -79,12 +80,7 @@ a:hover{
 }
 
 @media (max-width: 800px){
-   #footer{
-      font-size: .5rem;
-      padding: 1.5rem;
-      padding-bottom: 2rem;
-      text-align: center;
-   }
+  
    .img{
       width: 25rem;
       height: 15rem;
